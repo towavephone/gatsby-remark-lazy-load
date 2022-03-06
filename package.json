@@ -1,19 +1,21 @@
 {
-  "name": "gatsby-remark-lazy-load",
-  "version": "1.0.2",
-  "description": "This plugin lazy loads image processed by gatsby-remark-images plugin",
+  "name": "gatsby-remark-lazy-load-towavephone",
+  "version": "1.0.3",
+  "description": "This plugin lazy loads all markdown elements",
   "main": "index.js",
-  "homepage": "https://github.com/1kohei1/gatsby-remark-lazy-load",
+  "homepage": "https://github.com/towavephone/gatsby-remark-lazy-load",
   "repository": {
     "type": "git",
-    "url": "https://github.com/1kohei1/gatsby-remark-lazy-load.git"
+    "url": "https://github.com/towavephone/gatsby-remark-lazy-load.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "gatsby-remark-images",
     "lazyload",
+    "image",
+    "video",
+    "iframe",
     "markdown",
     "gatsby",
     "gatsby-plugin",
@@ -22,6 +24,7 @@
   "author": "Kohei Arai",
   "license": "ISC",
   "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
     "unist-util-visit-parents": "^2.0.1"
   }
 }
